@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Darshan Men's Hair Saloon | Premium Men's Grooming</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Experience premium men's grooming, precision haircuts, beard styling, and hair spa treatments at Darshan Men's Hair Saloon, Kalaburagi. Style. Confidence. You.">
+  <meta name="keywords"
+    content="Darshan Men's Hair Saloon, Kalaburagi salon, barbershop, men's haircut, beard styling, hair wash, men's grooming, hair treatment">
+  <meta name="author" content="Darshan Men's Hair Saloon">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Darshan Men's Hair Saloon | Premium Men's Grooming">
+  <meta property="og:description"
+    content="Style. Confidence. You. Premium haircuts, beard styling, and complete men's grooming in Kalaburagi.">
+  <meta property="og:image" content="images/hero/hero-banner.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo/darshan-favicon.png">
+
+  <!-- Google Fonts: Cinzel & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       1. HEADER & NAVIGATION
+       ======================================================================== -->
+  <header class="header" id="mainHeader" role="banner">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Darshan Men's Hair Saloon Homepage">
+        <img src="images/logo/darshan-logo.png" alt="Darshan Men's Hair Saloon Logo" class="brand-logo-emblem"
+          width="50" height="50">
+        <div class="brand-logo-text">
+          <span class="brand-name">DARSHAN</span>
+          <span class="brand-tagline">MEN'S HAIR SALOON</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="header-actions">
+          <!-- Theme Toggle Button -->
+          <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle light or dark theme"
+            title="Toggle theme">
+            <!-- Moon Icon (for Dark Theme) -->
+            <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <!-- Sun Icon (for Light Theme) -->
+            <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+
+          <!-- Nav Appointment CTA -->
+          <button class="btn btn-primary btn-sm btn-book-trigger" data-action="book-appointment" id="navBookBtn">
+            <span>Book Appointment</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Button & Theme Toggle -->
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <button class="theme-toggle-btn hamburger-theme-btn"
+          style="display: flex; @media (min-width: 1024px) { display: none; }" aria-label="Toggle theme">
+          <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open mobile menu" aria-expanded="false"
+          aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+    <div class="mobile-nav-links">
+      <a href="#hero" class="mobile-nav-link">
+        <span>Home</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </a>
+      <a href="#services" class="mobile-nav-link">
+        <span>Our Services</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </a>
+      <a href="#gallery" class="mobile-nav-link">
+        <span>Our Work (Gallery)</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </a>
+      <a href="#about" class="mobile-nav-link">
+        <span>About The Salon</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </a>
+      <a href="#reviews" class="mobile-nav-link">
+        <span>Google Reviews</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </a>
+      <a href="#contact" class="mobile-nav-link">
+        <span>Contact & Location</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <button class="btn btn-primary w-100 btn-book-trigger" data-action="book-appointment" style="width: 100%;">
+        <span>Book Appointment</span>
+      </button>
+      <a href="tel:+918431692794" class="btn btn-outline" data-config="phone-link" style="width: 100%;">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+          </path>
+        </svg>
+        <span>Call Salon</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       2. HERO SECTION
+       ======================================================================== -->
+  <section class="hero" id="hero" aria-label="Welcome Hero">
+    <div class="hero-bg">
+      <img src="images/hero/hero-banner.jpg" alt="Darshan Men's Hair Saloon Interior" class="hero-bg-img" width="1920"
+        height="1080" loading="eager">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-container">
+      <!-- Badge -->
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        <span class="hero-badge-text">Premium Men's Grooming</span>
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="hero-title">
+        <span class="hero-title-main">DARSHAN</span>
+        <span class="hero-title-sub gradient-text">MEN'S HAIR SALOON</span>
+      </h1>
+
+      <!-- Tagline -->
+      <p class="hero-tagline">"Style. Confidence. You."</p>
+
+      <!-- Description -->
+      <p class="hero-description">
+        Experience master craftsmanship, bespoke haircutting, razor-sharp beard sculpting, and rejuvenating grooming in
+        an atmosphere of tailored luxury.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="hero-cta-group">
+        <button class="btn btn-primary btn-book-trigger" data-action="book-appointment" id="heroBookBtn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <span>Book Appointment</span>
+        </button>
+
+        <a href="tel:+918431692794" class="btn btn-outline" data-config="phone-link" id="heroCallBtn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          <span>Call Now</span>
+        </a>
+
+        <a href="https://www.google.com/search?q=darshan+mens+hair+saloon#lrd=0x3bc8c7a50cd6e70f:0x659c3593e609f09d,3"
+          class="btn btn-outline hero-btn-review" id="heroReviewBtn" data-config="google-review-url"
+          target="_blank" rel="noopener noreferrer">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg>
+          <span>Review Us On Google</span>
+        </a>
+      </div>
+
+      <!-- Feature Highlight Badges -->
+      <div class="hero-features">
+        <div class="hero-feature-item">
+          <svg class="hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+          <span class="hero-feature-text">Master Barbers</span>
+        </div>
+        <div class="hero-feature-item">
+          <svg class="hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+          <span class="hero-feature-text">100% Sanitized Tools</span>
+        </div>
+        <div class="hero-feature-item">
+          <svg class="hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg>
+          <span class="hero-feature-text">Premium Atmosphere</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       3. SERVICES SECTION
+       ======================================================================== -->
+  <section class="section section-alt" id="services" aria-label="Our Grooming Services">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-label">Tailored Grooming</span>
+        <h2 class="section-title">OUR SERVICES</h2>
+        <p class="section-subtitle">
+          From signature cuts to revitalizing scalp treatments, our master barbers deliver precision and attention to
+          every detail.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1. Haircut -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Scissors Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="service-name">Haircut</h3>
+            <p class="service-desc">
+              Precision haircut customized to your head shape, facial contours, and personal lifestyle. Includes
+              consultation, wash, and style finish.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment" data-service="Haircut">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Beard Styling -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Razor / Beard Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
+                <path d="M12 12v9"></path>
+                <path d="M8 17l4 4 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="service-name">Beard Styling</h3>
+            <p class="service-desc">
+              Expert beard trimming, shaping, and crisp straight-razor edging with warm lather, hot towel finish, and
+              nourishing organic beard oils.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment"
+              data-service="Beard Styling">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. Hair Styling -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Sparkles / Styling Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8L12 2z"></path>
+              </svg>
+            </div>
+            <h3 class="service-name">Hair Styling</h3>
+            <p class="service-desc">
+              Professional blowout, volume texture styling, matte pomade sculpting, and evening event readiness tailored
+              to your distinctive profile.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment"
+              data-service="Hair Styling">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- 4. Hair Wash -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Droplets / Wash Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3 class="service-name">Hair Wash</h3>
+            <p class="service-desc">
+              Deep scalp-cleansing hair wash using premium clarifying shampoo followed by relaxing acupressure head
+              massage and conditioner.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment" data-service="Hair Wash">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- 5. Hair Treatment -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Shield / Care Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="M12 8v8"></path>
+                <path d="M8 12h8"></path>
+              </svg>
+            </div>
+            <h3 class="service-name">Hair Treatment</h3>
+            <p class="service-desc">
+              Intensive hair spa, anti-dandruff scalp detox, and keratin conditioning steam treatment to restore hair
+              strength, shine, and natural density.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment"
+              data-service="Hair Treatment">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- 6. Kids Haircut -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Smile / Kids Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+              </svg>
+            </div>
+            <h3 class="service-name">Kids Haircut</h3>
+            <p class="service-desc">
+              Gentle, patient, and stylish haircut experience designed for young boys in a friendly, comfortable, and
+              hygienic setting.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment"
+              data-service="Kids Haircut">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- 7. Grooming -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- User Check / Grooming Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="8.5" cy="7" r="4"></circle>
+                <polyline points="17 11 19 13 23 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-name">Grooming</h3>
+            <p class="service-desc">
+              Essential men's maintenance including face scrubbing, nose & ear detailing, eyebrow cleanup, and cooling
+              toner application.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment" data-service="Grooming">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- 8. Premium Grooming -->
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Crown / Premium Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7z"></path>
+                <rect x="5" y="16" width="14" height="4" rx="1"></rect>
+              </svg>
+            </div>
+            <h3 class="service-name">Premium Grooming</h3>
+            <p class="service-desc">
+              The ultimate royal treatment: signature haircut, luxury beard sculpting, hot herbal towel facial massage,
+              and invigorating hair wash.
+            </p>
+          </div>
+          <div class="service-meta">
+            <span class="service-price-tag">[Price on Consultation]</span>
+            <button class="service-book-btn btn-book-trigger" data-action="book-appointment"
+              data-service="Premium Grooming">
+              <span>Book</span> &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       4. GALLERY SECTION
+       ======================================================================== -->
+  <section class="section" id="gallery" aria-label="Our Portfolio and Salon Work">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-label">Master Portfolio</span>
+        <h2 class="section-title">OUR WORK</h2>
+        <p class="section-subtitle">
+          A showcase of precision haircuts, clean beard fades, and modern styling crafted at Darshan Men's Hair Saloon.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="gallery-filters reveal-on-scroll" role="tablist" aria-label="Gallery filters">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Work</button>
+        <button class="filter-btn" data-filter="haircuts" role="tab" aria-selected="false">Haircuts</button>
+        <button class="filter-btn" data-filter="beard" role="tab" aria-selected="false">Beard Styling</button>
+        <button class="filter-btn" data-filter="styling" role="tab" aria-selected="false">Hair Styling</button>
+        <button class="filter-btn" data-filter="treatment" role="tab" aria-selected="false">Spa & Grooming</button>
+      </div>
+
+      <!-- Gallery Grid (Mobile: 2 cols, Tablet: 3 cols, Desktop: 4 cols) -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- 1. Fade Haircut -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="haircuts" data-category-label="Haircut"
+          data-title="Precision Skin Fade & Edge-Up" aria-label="View Precision Skin Fade & Edge-Up">
+          <img src="images/gallery/haircut-fade.jpg" alt="Precision Skin Fade & Edge-Up" class="gallery-img"
+            loading="lazy" width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Haircut</span>
+            <h4 class="gallery-caption">Precision Skin Fade & Edge-Up</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- 2. Beard Styling -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="beard" data-category-label="Beard Styling"
+          data-title="Sculpted Beard Trim & Razor Line" aria-label="View Sculpted Beard Trim & Razor Line">
+          <img src="images/gallery/beard-styling.jpg" alt="Sculpted Beard Trim & Razor Line" class="gallery-img"
+            loading="lazy" width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Beard Styling</span>
+            <h4 class="gallery-caption">Sculpted Beard Trim & Razor Line</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- 3. Hair Styling -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="styling" data-category-label="Hair Styling"
+          data-title="Classic Textured Pompadour" aria-label="View Classic Textured Pompadour">
+          <img src="images/gallery/hair-styling.jpg" alt="Classic Textured Pompadour" class="gallery-img" loading="lazy"
+            width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Hair Styling</span>
+            <h4 class="gallery-caption">Classic Textured Pompadour</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- 4. Hair Wash & Scalp -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="treatment" data-category-label="Scalp Spa"
+          data-title="Relaxing Scalp Spa & Wash" aria-label="View Relaxing Scalp Spa & Wash">
+          <img src="images/gallery/hair-wash.jpg" alt="Relaxing Scalp Spa & Wash" class="gallery-img" loading="lazy"
+            width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Scalp Spa</span>
+            <h4 class="gallery-caption">Relaxing Scalp Spa & Wash</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- 5. Kids Haircut -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="haircuts" data-category-label="Kids Cut"
+          data-title="Kids Modern Gentleman Cut" aria-label="View Kids Modern Gentleman Cut">
+          <img src="images/gallery/kids-haircut.jpg" alt="Kids Modern Gentleman Cut" class="gallery-img" loading="lazy"
+            width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Kids Cut</span>
+            <h4 class="gallery-caption">Kids Modern Gentleman Cut</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- 6. Grooming & Steam Facial -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="treatment" data-category-label="Grooming"
+          data-title="Hot Herbal Towel & Facial Spa" aria-label="View Hot Herbal Towel & Facial Spa">
+          <img src="images/gallery/grooming-facial.jpg" alt="Hot Herbal Towel & Facial Spa" class="gallery-img"
+            loading="lazy" width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Grooming</span>
+            <h4 class="gallery-caption">Hot Herbal Towel & Facial Spa</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- 7. Hair Steam Treatment -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="treatment" data-category-label="Hair Care"
+          data-title="Nourishing Hair Steam Therapy" aria-label="View Nourishing Hair Steam Therapy">
+          <img src="images/gallery/hair-treatment.jpg" alt="Nourishing Hair Steam Therapy" class="gallery-img"
+            loading="lazy" width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Hair Care</span>
+            <h4 class="gallery-caption">Nourishing Hair Steam Therapy</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- 8. Barber Craft Tools -->
+        <div class="gallery-item" tabindex="0" role="button" data-category="styling" data-category-label="Craftsmanship"
+          data-title="Master Precision Barber Tools" aria-label="View Master Precision Barber Tools">
+          <img src="images/gallery/barber-craft.jpg" alt="Master Precision Barber Tools" class="gallery-img"
+            loading="lazy" width="600" height="450">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Craftsmanship</span>
+            <h4 class="gallery-caption">Master Precision Barber Tools</h4>
+          </div>
+          <div class="gallery-zoom-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image Preview Lightbox">
+    <button class="lightbox-btn-close" id="lightboxCloseBtn" aria-label="Close image preview">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <button class="lightbox-nav-btn lightbox-prev" id="lightboxPrevBtn" aria-label="Previous image">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+    </button>
+    <button class="lightbox-nav-btn lightbox-next" id="lightboxNextBtn" aria-label="Next image">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </button>
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-caption-box">
+        <span class="lightbox-category" id="lightboxCategory"></span>
+        <h4 class="lightbox-title" id="lightboxTitle"></h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       5. ABOUT SECTION
+       ======================================================================== -->
+  <section class="section section-alt" id="about" aria-label="About The Saloon">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-on-scroll">
+          <div class="about-img-frame">
+            <img src="images/about/about-salon.jpg" alt="Master Barber at Darshan Men's Hair Saloon" class="about-img"
+              loading="lazy" width="800" height="600">
+          </div>
+          <div class="about-badge-card">
+            <img src="images/logo/darshan-emblem.png" alt="Darshan Men's Hair Saloon Emblem" class="about-badge-img"
+              width="52" height="52">
+            <div>
+              <div class="about-badge-title">Darshan Salon</div>
+              <div class="about-badge-sub">Premium Grooming Standard</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal-on-scroll">
+          <span class="section-label">Our Heritage & Craft</span>
+          <h2 class="about-heading">ABOUT DARSHAN MEN'S HAIR SALOON</h2>
+          <p class="about-text">
+            At <strong>Darshan Men's Hair Saloon</strong>, grooming is an elevated craft. We believe a great haircut
+            does more than refine your look — it restores confidence and sharpens your presence.
+          </p>
+          <p class="about-text">
+            Our salon combines classic barbering artistry with modern styling techniques. Every visit begins with a
+            thoughtful consultation to understand your personal style, followed by unhurried precision cutting,
+            sterilized hygiene protocols, and high-quality grooming essentials.
+          </p>
+
+          <!-- Core Pillars -->
+          <div class="about-pillars">
+            <div class="pillar-card">
+              <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+              <div>
+                <h4 class="pillar-title">Precision Styling</h4>
+                <p class="pillar-desc">Custom tailored cuts to match your distinctive profile.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <div>
+                <h4 class="pillar-title">Hygiene & Safety</h4>
+                <p class="pillar-desc">Sanitized equipment and immaculate grooming stations.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              <div>
+                <h4 class="pillar-title">Master Care</h4>
+                <p class="pillar-desc">Attentive barbers dedicated to your comfort and style.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <div>
+                <h4 class="pillar-title">Premium Products</h4>
+                <p class="pillar-desc">Top-grade pomades, nourishing oils, and scalp care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subtle Gold Divider -->
+      <div class="about-divider" aria-hidden="true"></div>
+
+      <!-- Meet The Owner / Master Barber Block -->
+      <div class="owner-showcase reveal-on-scroll" id="owner">
+        <div class="owner-grid">
+          <!-- Owner Image Column -->
+          <div class="owner-visual">
+            <div class="owner-img-frame">
+              <img src="images/owner/owner.png" alt="Owner & Master Barber - Darshan Men's Hair Saloon"
+                class="owner-img" loading="lazy" width="600" height="750">
+            </div>
+            <div class="owner-floating-badge">
+              <span class="owner-badge-dot"></span>
+              <span class="owner-badge-text">OWNER & MASTER BARBER</span>
+            </div>
+          </div>
+
+          <!-- Owner Content Column -->
+          <div class="owner-content">
+            <span class="section-label">Master Stylist</span>
+            <h2 class="owner-heading">MEET THE OWNER</h2>
+            <h3 class="owner-subheading gradient-text">The Man Behind Darshan Saloon</h3>
+
+            <p class="owner-lead-text">
+              Meet the owner of <strong>Darshan Men's Hair Saloon</strong> — a skilled men's hairstylist and grooming
+              professional with a passion for precision and personal style.
+            </p>
+
+            <p class="owner-text">
+              With 1 year of professional experience at Spin and training in Bengaluru, he brings practical grooming
+              skills and a modern approach to men's hairstyling.
+            </p>
+
+            <!-- Highlights / Credentials -->
+            <div class="owner-highlights">
+              <div class="owner-highlight-item">
+                <div class="owner-highlight-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                    <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                    <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="owner-highlight-title">Trained in Bengaluru</h4>
+                  <p class="owner-highlight-desc">Specialized technical training in modern men's hairstyling.</p>
+                </div>
+              </div>
+
+              <div class="owner-highlight-item">
+                <div class="owner-highlight-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="owner-highlight-title">1 Year at Spin</h4>
+                  <p class="owner-highlight-desc">Hands-on salon grooming & client styling experience.</p>
+                </div>
+              </div>
+
+              <div class="owner-highlight-item">
+                <div class="owner-highlight-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <polyline points="9 12 11 14 15 10"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="owner-highlight-title">Men's Grooming Specialist</h4>
+                  <p class="owner-highlight-desc">Custom haircuts, beard shaping, and scalp treatments.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="owner-cta">
+              <button class="btn btn-primary btn-book-trigger" data-action="book-appointment" data-service="Haircut">
+                <span>Book Appointment</span> &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       6. GOOGLE REVIEWS SECTION
+       ======================================================================== -->
+  <section class="section" id="reviews" aria-label="Customer Google Reviews">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-label">Verified Feedback</span>
+        <h2 class="section-title">CUSTOMER REVIEWS</h2>
+        <p class="section-subtitle">
+          We believe in complete transparency. Our reviews are collected directly and authentically on Google Business.
+        </p>
+      </div>
+
+      <div class="reviews-container reveal-on-scroll">
+        <div class="reviews-card">
+          <!-- Google Badge -->
+          <div class="reviews-google-badge">
+            <svg class="google-icon" viewBox="0 0 24 24">
+              <path fill="#4285F4"
+                d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z" />
+              <path fill="#34A853"
+                d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.35 24 12 24z" />
+              <path fill="#FBBC05"
+                d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.98 0 12s.45 3.82 1.25 5.42l4.03-3.15z" />
+              <path fill="#EA4335"
+                d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.35 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z" />
+            </svg>
+            <span style="font-weight: 600; font-size: 0.9375rem;">Google Business Reviews</span>
+          </div>
+
+          <!-- 5-Star Visual -->
+          <div class="reviews-stars" aria-label="Rated 5 out of 5 stars on Google">
+            <svg class="star-icon" viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            <svg class="star-icon" viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            <svg class="star-icon" viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            <svg class="star-icon" viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            <svg class="star-icon" viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+
+          <p class="reviews-quote">
+            "Your feedback is our greatest benchmark of quality. Read what our gentlemen have to say or leave your own
+            review on Google."
+          </p>
+
+          <!-- Integration Notice & Client Information -->
+          <div class="reviews-notice">
+            <span>Official Google Business Profile &bull; Review link syncing via Google Maps.</span>
+          </div>
+
+          <!-- Google Review CTAs -->
+          <div class="reviews-cta-group">
+            <a href="https://www.google.com/search?q=darshan+mens+hair+saloon#lrd=0x3bc8c7a50cd6e70f:0x659c3593e609f09d,3" class="btn btn-primary" data-config="google-review-url"
+              id="reviewGoogleBtn" target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+              <span>Review Us On Google</span>
+            </a>
+
+            <a href="https://maps.app.goo.gl/uyRdwP7iL1KX5DWX7" class="btn btn-secondary" data-config="google-maps-url"
+              target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <span>Read Google Reviews</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       7. CONTACT & LOCATION SECTION
+       ======================================================================== -->
+  <section class="section section-alt" id="contact" aria-label="Contact and Location">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">CONTACT US</h2>
+        <p class="section-subtitle">
+          Visit our saloon or connect directly via phone and WhatsApp for consultations and bookings.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Cards -->
+        <div class="contact-cards-list reveal-on-scroll">
+          <!-- 1. Phone -->
+          <div class="contact-info-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <div class="contact-card-title">Phone Number</div>
+              <div class="contact-card-value" data-config="phone-display">+91 84316 92794</div>
+              <div class="contact-card-sub">Available for instant calls & inquiries</div>
+            </div>
+          </div>
+
+          <!-- 2. WhatsApp -->
+          <div class="contact-info-card">
+            <div class="contact-card-icon"
+              style="color: #25d366; background: rgba(37, 211, 102, 0.1); border-color: rgba(37, 211, 102, 0.3);">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                </path>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <div class="contact-card-title">WhatsApp Booking</div>
+              <div class="contact-card-value">+91 84316 92794</div>
+              <div class="contact-card-sub">Quick slot booking & consultation</div>
+            </div>
+          </div>
+
+          <!-- 3. Address & Plus Code -->
+          <div class="contact-info-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <div class="contact-card-title">Saloon Location</div>
+              <div class="contact-card-value" data-config="address">1, Barey Hills Main Rd, Shri Ganesha Nagar, Jagriti
+                Colony, Azadpur, Kalaburagi, Karnataka 585105</div>
+              <div class="contact-card-sub" data-config="plus-code">Plus Code: 8VM6+Q2 Kalaburagi, Karnataka</div>
+            </div>
+          </div>
+
+          <!-- 4. Opening Hours -->
+          <div class="contact-info-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <div class="contact-card-title">Opening Hours</div>
+              <div class="contact-card-value" data-config="hours">Timings available on call / Contact salon</div>
+              <div class="contact-card-sub">Daily schedule available by phone</div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="contact-actions-bar">
+            <a href="tel:+918431692794" class="btn btn-outline" data-config="phone-link" id="contactCallBtn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <span>Call Now</span>
+            </a>
+
+            <a href="https://wa.me/918431692794" class="btn btn-whatsapp" data-config="whatsapp-link"
+              id="contactWhatsappBtn" target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                </path>
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+
+            <a href="https://maps.app.goo.gl/uyRdwP7iL1KX5DWX7" class="btn btn-secondary" data-config="google-maps-url"
+              id="contactDirectionsBtn" target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+              </svg>
+              <span>Get Directions</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed Frame -->
+        <div class="map-frame-wrapper reveal-on-scroll">
+          <div class="map-header">
+            <span class="map-header-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--gold-500)" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Salon Location Map</span>
+            </span>
+            <span
+              style="font-size: 0.75rem; color: var(--gold-500); font-weight: 600; text-transform: uppercase;">Google
+              Maps</span>
+          </div>
+
+          <div class="map-container" id="mapContainer">
+            <div class="map-placeholder-box">
+              <div class="map-pin-pulse">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <h4 class="map-placeholder-title">Darshan Men's Hair Saloon</h4>
+              <p class="map-placeholder-desc" data-config="address">
+                1, Barey Hills Main Rd, Shri Ganesha Nagar, Jagriti Colony, Azadpur, Kalaburagi, Karnataka 585105
+              </p>
+              <a href="https://maps.app.goo.gl/uyRdwP7iL1KX5DWX7" class="btn btn-primary btn-sm"
+                data-config="google-maps-url" target="_blank" rel="noopener noreferrer">
+                <span>Open in Google Maps</span> &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       8. APPOINTMENT HELPER MODAL (WHATSAPP INTEGRATION)
+       ======================================================================== -->
+  <div class="appointment-modal" id="appointmentModal" role="dialog" aria-modal="true"
+    aria-labelledby="appointmentTitle">
+    <div class="appointment-dialog">
+      <button class="lightbox-btn-close" id="appointmentCloseBtn" style="top: 1rem; right: 1rem;"
+        aria-label="Close booking modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="appointment-dialog-header">
+        <span class="section-label" style="margin-bottom: 0.25rem;">Quick Booking</span>
+        <h3 class="appointment-dialog-title" id="appointmentTitle">Book Your Appointment</h3>
+        <p class="appointment-dialog-sub">Select your desired service and confirm directly via WhatsApp with the salon.
+        </p>
+      </div>
+
+      <form class="appointment-form" id="appointmentForm" novalidate>
+        <!-- Error Alert Message -->
+        <div id="appointmentError" class="form-error-msg" role="alert" style="display: none;"></div>
+
+        <!-- Service Selection -->
+        <div class="form-group">
+          <label for="appointmentService" class="form-label">Select Service</label>
+          <select id="appointmentService" class="form-select" required>
+            <option value="Haircut">Haircut</option>
+            <option value="Beard Styling">Beard Styling</option>
+            <option value="Hair Styling">Hair Styling</option>
+            <option value="Hair Wash">Hair Wash</option>
+            <option value="Hair Treatment">Hair Treatment</option>
+            <option value="Kids Haircut">Kids Haircut</option>
+            <option value="Grooming">Grooming</option>
+            <option value="Premium Grooming">Premium Grooming</option>
+            <option value="Multiple / Consultation">Multiple Services / Consultation</option>
+          </select>
+        </div>
+
+        <!-- Date & Time Preference -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="form-group">
+            <label for="appointmentDate" class="form-label">Preferred Date</label>
+            <input type="date" id="appointmentDate" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label for="appointmentTime" class="form-label">Preferred Time</label>
+            <input type="time" id="appointmentTime" class="form-input" required>
+          </div>
+        </div>
+
+        <!-- Client Name -->
+        <div class="form-group">
+          <label for="appointmentName" class="form-label">Your Name</label>
+          <input type="text" id="appointmentName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+        </div>
+
+        <p class="form-note">
+          &bull; Clicking the button below opens WhatsApp with your pre-filled booking details to confirm with the salon
+          directly.
+        </p>
+
+        <button type="submit" class="btn btn-whatsapp w-100" id="sendWhatsappBookingBtn" style="width: 100%;">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+            </path>
+          </svg>
+          <span>Send WhatsApp Booking</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       9. FLOATING MOBILE ACTIONS BAR (< 768px)
+       ======================================================================== -->
+  <aside class="mobile-action-bar" aria-label="Quick mobile contact actions">
+    <a href="tel:+918431692794" class="mobile-bar-btn mobile-bar-call" data-config="phone-link"
+      aria-label="Call Darshan Salon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+        </path>
+      </svg>
+      <span>Call</span>
+    </a>
+
+    <a href="https://wa.me/918431692794" class="mobile-bar-btn mobile-bar-whatsapp" data-config="whatsapp-link"
+      aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+        </path>
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+
+    <button class="mobile-bar-btn mobile-bar-book btn-book-trigger" data-action="book-appointment"
+      aria-label="Book Appointment">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span>Book</span>
+    </button>
+  </aside>
+
+  <!-- ========================================================================
+       10. FOOTER
+       ======================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="brand-logo footer-logo" aria-label="Darshan Men's Hair Saloon">
+            <img src="images/logo/darshan-logo.png" alt="Darshan Men's Hair Saloon Logo" class="brand-logo-emblem"
+              width="56" height="56">
+            <div class="brand-logo-text">
+              <span class="brand-name">DARSHAN</span>
+              <span class="brand-tagline">MEN'S HAIR SALOON</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            "Style. Confidence. You."<br>
+            Premier men's hair styling, precision beard sculpting, and luxury grooming care in Kalaburagi.
+          </p>
+          <div class="footer-social-links" aria-label="Social media channels">
+            <a href="#" class="social-link-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-link-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link-btn" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                </path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#gallery" class="footer-link">Our Work</a></li>
+            <li><a href="#about" class="footer-link">About Us</a></li>
+            <li><a href="#reviews" class="footer-link">Google Reviews</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="#services" class="footer-link">Haircut & Styling</a></li>
+            <li><a href="#services" class="footer-link">Beard Sculpting</a></li>
+            <li><a href="#services" class="footer-link">Scalp Spa & Wash</a></li>
+            <li><a href="#services" class="footer-link">Hair Treatment</a></li>
+            <li><a href="#services" class="footer-link">Kids Haircut</a></li>
+            <li><a href="#services" class="footer-link">Premium Grooming</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Summary -->
+        <div>
+          <h4 class="footer-col-title">Contact</h4>
+          <ul class="footer-links-list">
+            <li style="color: var(--text-secondary);" data-config="phone-display">+91 84316 92794</li>
+            <li style="color: var(--text-secondary);" data-config="address">1, Barey Hills Main Rd, Shri Ganesha Nagar,
+              Jagriti Colony, Azadpur, Kalaburagi, Karnataka 585105</li>
+            <li style="color: var(--gold-500); font-weight: 500;" data-config="hours">Timings available on call /
+              Contact salon</li>
+            <li style="margin-top: 0.75rem;">
+              <a href="https://maps.app.goo.gl/uyRdwP7iL1KX5DWX7" class="text-gold" data-config="google-maps-url"
+                target="_blank" rel="noopener noreferrer"
+                style="display: inline-flex; align-items: center; gap: 0.25rem;">
+                <span>View on Google Maps</span> &rarr;
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright, Developer Credit & Back to Top -->
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; <span id="currentYear">2026</span> Darshan Men's Hair Saloon. All rights reserved.
+        </div>
+        <div class="footer-credit">
+          Designed &amp; Developed by <span class="credit-author">Pradeep Vishwakarma</span>
+        </div>
+        <a href="#hero" class="back-to-top-btn" aria-label="Scroll back to top">
+          <span>Back to top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
